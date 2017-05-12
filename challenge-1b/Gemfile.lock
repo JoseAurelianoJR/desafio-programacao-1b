@@ -196,6 +196,7 @@ DEPENDENCIES
   factory_girl_rails
   jbuilder (~> 2.0)
   jquery-rails
+  monetize
   money-rails (~> 1)
   rails (= 4.2.8)
   rake (< 11.0)

@@ -21,8 +21,4 @@ class Buyer < ActiveRecord::Base
       self.total_centavos = price_centavos * quantity
     end
 
-    def price_format(price)
-      aux = price.to_s.split(".")
-      aux.count > 1 ? aux[1].to_i : 0
-    end
 end
